@@ -24,11 +24,8 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
-.gitignore
-.idea/
-m1-startup/.gitignore
-m1-startup/.mvn/
-m1-startup/mvnw
-m1-startup/mvnw.cmd
-m1-startup/pom.xml
-m1-startup/src/
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
