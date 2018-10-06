@@ -15,6 +15,6 @@ public class M1StartupApplication {
 
     @GetMapping("hello")
     public String sayHello(){
-        return "Hello, Spring";
+        return "Hello, Spring Boot!!";
     }
 }
