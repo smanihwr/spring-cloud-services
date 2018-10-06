@@ -1,0 +1,21 @@
+---
+server:
+  port: 8888
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/smanihwr/spring-cloud-config-wa-tolls.git
+          search-paths:
+            - 'station*'
+          repos:
+            perf:
+              pattern:
+                - "*perf"
+              uri: https://github.com/smanihwr/spring-cloud-config-wa-tolls-perf.git
+              search-paths:
+                - 'station*'
+          #username:
+          #password:
