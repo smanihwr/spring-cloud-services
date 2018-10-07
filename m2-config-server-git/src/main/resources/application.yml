@@ -2,6 +2,7 @@
 server:
   port: 8888
 
+
 spring:
   cloud:
     config:
@@ -17,5 +18,9 @@ spring:
               uri: https://github.com/smanihwr/spring-cloud-config-wa-tolls-perf.git
               search-paths:
                 - 'station*'
+  security:
+    user:
+      name: test
+      password: testpassword
           #username:
           #password:
