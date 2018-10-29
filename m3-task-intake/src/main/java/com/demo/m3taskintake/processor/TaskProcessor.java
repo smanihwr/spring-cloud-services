@@ -20,7 +20,8 @@ public class TaskProcessor {
 
     public void publishRequest(String payload) {
 
-        String url = "maven://com.demo.m3-task:m3-task:jar:0.0.1-SNAPSHOT";
+        //maven://[groupid]:[artifactid]:jar:[version]
+        String url = "maven://com.demo:m3-task:jar:0.0.1-SNAPSHOT";
 
         List<String> input = new ArrayList<String>(Arrays.asList(payload.split(",")));
 
